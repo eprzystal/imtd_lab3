@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,600;0,700;1,400;1,500;1,600&family=Days+One&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+
+/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+
+
+/*
+  Major Sixth Modular Scale:
+  http://www.modularscale.com/?22&px&1.667&web&text
+*/
+
+html {
+  font-family: 'Days One','Cormorant Garamond',san-serif, serif;
+  font-size: 1em; /* 16px */
+  line-height: 1.5em; /* 24px */
+  background-color: lightgray;
+  display: center;
+}
+
+label {
+  display: block;
+}
+
+h1  {
+    font-family: 'Days One', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: .2em;
+    padding: 1em;
+    text-align: center;
+    }
+    
+div {
+    background-color: darkgray;
+    border-radius: 20px;
+    padding-top: 50%;
+    padding: 2%;
+    width: 60%;
+    position: relative;
+    top: 20%;
+    left: 17%;
+}
+#input-email {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 800;
+    font-size: 1.25em;
+    text-align: center;
+    line-height: 1.5em;
+}
+input#email {
+    padding: 12px 20px;
+    text-align: center;
+    background-color: lightgray;
+    
+}
+#input-age-verification {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.25em;
+    text-align: center;
+    padding-top: 10px;
+}
+#checkbox {
+    display: center;
+    padding-top: 1em;
+}
+#input-submit {
+    font-family: 'Days One', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 12px 60px;
+}
+
+@media screen and (min-width:300px ){
+    html {
+    	display: inline-block;
+	    font-size: 1em;
+	    text-align: center;
+	    justify-content: center;
+    }
+    
+    h1  {
+        line-height: 1em;
+    }
+    
+    p  {
+        line-height: 1em;
+    }
+    
+    div  {
+    left: 17%;
+    }
+}
+    
